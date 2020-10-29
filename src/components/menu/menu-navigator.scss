@@ -1,0 +1,27 @@
+.menu-navigator
+    {
+        display: none;
+    }
+    
+.menu-side-drawer
+{
+    margin-top: 80px;
+    display: block;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    
+}
+@media (min-width:760px)
+{
+    .menu-navigator
+    {
+        display: block;
+    }
+    .menu-side-drawer
+    {
+        display: none;
+    }
+}
+
+

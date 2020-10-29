@@ -1,0 +1,11 @@
+.portfolio-list-container {
+  display: flex;
+  justify-content: center;
+  .portfolio-list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: start;
+    margin-top: 50px;
+  }
+}

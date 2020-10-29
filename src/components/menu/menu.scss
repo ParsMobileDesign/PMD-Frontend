@@ -1,0 +1,40 @@
+.menu {
+  height: 60px;
+  display: flex;
+  padding: 20px;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto;
+  background: #ffffff;
+  box-shadow:0 0 20px 5px #efe9e9;
+  border-radius: 3px;
+}
+.menu-logo {
+  font-family: "Raleway", sans-serif;
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-decoration: none;
+}
+.menu-left-content {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.menu-toggle {
+  cursor: pointer;
+  margin-right: 8px;
+  span {
+    display: flex;
+    flex-direction: column;
+    width: 1.5rem;
+    height: 2px;
+    background-color: black;
+    margin-bottom: 5px;
+  }
+}
+@media (min-width: 760px) {
+  .menu-toggle {
+    display: none;
+  }
+}
