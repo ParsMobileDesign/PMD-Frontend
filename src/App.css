@@ -1,20 +1,16 @@
-.container{
-  background-color: rgb(241, 243, 245);
-  height: 100%;
-  padding: 50px;
+
+.main-content {
+  margin-bottom: 150px;
 }
-.center
-{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-.direction-column
-{
+.direction-column {
   flex-direction: column;
 }
-.danger
-{
-  color:red;
-  font-size: .9rem;
+.danger {
+  color: red;
+  font-size: 0.9rem;
 }

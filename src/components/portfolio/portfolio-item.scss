@@ -10,7 +10,7 @@
   cursor: pointer;
   &:hover {
     .portfolio-item-desc {
-        transform:translateY(-50px);
+        transform:translateY(-60px);
     }
   }
   .portfolio-item-img {
@@ -30,7 +30,7 @@
     font-family: Raleway;
     background-color: rgba(#343434, 0.6);
     z-index: 100;
-    bottom: -50px;
+    bottom: -60px;
     padding: 5px 0;
     transition: all .2s ease-in-out;
     .portfolio-item-title {

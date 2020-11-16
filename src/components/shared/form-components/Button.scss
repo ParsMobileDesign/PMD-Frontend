@@ -1,0 +1,31 @@
+.button {
+  outline: none;
+  cursor: pointer;
+  display: inline-block;
+  padding: 8px 22px;
+  margin: 5px;
+  border-radius: 0.4em;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-size: 1rem;
+  color: #ffffff;
+  background-color: #4eb5f1;
+  text-align: center;
+  transition: all 0.2s;
+  border: none;
+}
+.button:hover {
+  background-color: #4095c6;
+}
+@media all and (max-width: 30em) {
+   .button {
+    display: block;
+    margin: 0.2em auto;
+  }
+}
+.button:disabled{
+  background-color: #a8b5bd;
+  cursor: default;
+}

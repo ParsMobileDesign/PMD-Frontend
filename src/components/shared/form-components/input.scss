@@ -1,23 +1,5 @@
 .input-container {
   display: flex;
   flex-direction: column;
-  width: 250px;
   margin: 5px;
-  input.input-control
-  {
-    height: 25px;
-  }
-  .input-control {
-    width: 100%;
-    border-radius: 3px;
-    padding: 3px;
-    border: 1px #dfd9d9 solid;
-    &:focus {
-      outline: none !important;
-      box-shadow: 0 0 8px #d2d5da;
-    }
-    &.danger {
-      border: 1px red solid;
-    }
-  }
 }

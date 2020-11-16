@@ -30,7 +30,7 @@ const Menu = (props) => {
             Pars Mobile Design
           </Link>
         </div>
-        <MenuNavigator menuItems={props.menuItems} Class="menu-navigator" />
+        <MenuNavigator menuItems={props.menuItems}  Class="menu-navigator" />
       </div>
     </React.Fragment>
   );

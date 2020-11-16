@@ -26,8 +26,6 @@ const PortfolioItemSelected = () => {
           <span className="p-item-title">{item.title}</span>
           <span className="p-item-desc">{item.desc}</span>
         </div>
-        <Modal show={isDialogOpen} closeHandler={closeHandler}/>
-        <span onClick={modalHandler}>Click to modal</span>
       </div>
     );
   } else {

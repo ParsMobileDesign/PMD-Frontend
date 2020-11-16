@@ -42,7 +42,7 @@ const Input = (props) => {
         id={props.id}
         type={props.type}
         placeholder={props.placeholder}
-        className={`input-control ${
+        className={`form-control ${
           !currentState.isValid && currentState.isTouched && "danger"
         }`}
         onChange={changeHandler}
@@ -52,7 +52,7 @@ const Input = (props) => {
     ) : (
       <textarea
         id={props.id}
-        className={`input-control ${
+        className={`form-control ${
           !currentState.isValid && currentState.isTouched && "danger"
         }`}
         rows={props.rows}

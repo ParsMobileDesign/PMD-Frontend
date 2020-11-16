@@ -1,0 +1,34 @@
+.footer {
+  padding: 10px 80px;
+  background-color: #f3ecec;
+  position: absolute;
+  width: 100%;
+  height: 115px;
+  display: flex;
+  flex-direction: row;
+  ul {
+    list-style: none;
+    li a {
+      text-decoration: none;
+      color: rgb(139, 136, 136);
+      transition: all 0.3s ease-in-out;
+      &:hover {
+        color: rgb(37, 37, 37);
+      }
+    }
+    li svg {
+      margin-right: 10px;
+    }
+  }
+  .footer-social {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    padding-top: 10px;
+    svg {
+      margin-right: 30px;
+      cursor: pointer;
+      font-size: 1.5rem;
+    }
+  }
+}
