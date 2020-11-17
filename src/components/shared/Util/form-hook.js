@@ -31,7 +31,7 @@ const formReducer = (state, action) => {
 
 export const useForm = (initialObj) => {
   const [formState, dispacher] = useReducer(formReducer, initialObj);
-  const titleHandler = useCallback((id, value, isValid) => {
+  const inputHandler = useCallback((id, value, isValid) => {
     dispacher({
       actType: "InputChange",
       actInputId: id,
@@ -39,5 +39,5 @@ export const useForm = (initialObj) => {
       actIsValid: isValid,
     });
   }, []);
-  return [formState, titleHandler];
+  return [formState, inputHandler];
 };
