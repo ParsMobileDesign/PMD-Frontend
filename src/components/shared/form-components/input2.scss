@@ -1,0 +1,19 @@
+.inputGroup
+{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 10px;
+    .input-control
+    {
+        width: auto;
+    }
+    .message
+    {
+        margin-left: 7px;
+        color:red
+    }
+    .danger
+    {
+        border:1px solid red
+    }
+}
